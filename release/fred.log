@@ -1,0 +1,211 @@
+
+c:\SourceCode\ArchiveExtractor\release>bcc32c -o ArchiveExtractor.exe ..\src\ArchiveExtractor.c 
+Embarcadero C++ 7.20 for Win32 Copyright (c) 2012-2016 Embarcadero Technologies, Inc.
+..\src\ArchiveExtractor.c:
+In file included from ..\src\ArchiveExtractor.c:25:
+In file included from C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\iostream:4:
+In file included from C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\istream:4:
+In file included from C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\ostream:4:
+In file included from C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\ios:4:
+In file included from C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\xlocnum:8:
+In file included from C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\streambuf:4:
+In file included from C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\xiosbase:4:
+In file included from C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\xlocale:5:
+C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\cstring:17:15: error: conflicting types for 'memchr'
+inline void * memchr(void *_Str, int _Ch, size_t _Size)
+              ^
+C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\windows\crtl\mem.h:81:40: note: previous declaration is here
+          void    * _RTLENTRY _EXPFUNC memchr(const void *__s, int __c, _SIZE_T __n);
+                                       ^
+In file included from ..\src\ArchiveExtractor.c:25:
+In file included from C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\iostream:4:
+In file included from C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\istream:4:
+In file included from C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\ostream:4:
+In file included from C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\ios:4:
+In file included from C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\xlocnum:8:
+In file included from C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\streambuf:4:
+In file included from C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\xiosbase:4:
+In file included from C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\xlocale:5:
+C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\cstring:28:21: error: conflicting types for 'memchr'
+inline const void * memchr(const void *_Str, int _Ch, size_t _Size)
+                    ^
+C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\windows\crtl\mem.h:81:40: note: previous declaration is here
+          void    * _RTLENTRY _EXPFUNC memchr(const void *__s, int __c, _SIZE_T __n);
+                                       ^
+In file included from ..\src\ArchiveExtractor.c:25:
+In file included from C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\iostream:4:
+In file included from C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\istream:4:
+In file included from C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\ostream:4:
+In file included from C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\ios:4:
+In file included from C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\xlocnum:8:
+In file included from C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\streambuf:4:
+In file included from C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\xiosbase:4:
+In file included from C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\xlocale:6:
+In file included from C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\stdexcept:4:
+In file included from C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\exception:4:
+In file included from C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\xstddef:8:
+C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\initializer_list:8:1: error: unknown type name 'template'
+template<class _Elem>
+^
+C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\initializer_list:8:9: error: expected identifier or '('
+template<class _Elem>
+        ^
+C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\initializer_list:58:1: error: unknown type name 'template'
+template<class _Elem> inline
+^
+C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\initializer_list:58:9: error: expected identifier or '('
+template<class _Elem> inline
+        ^
+C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\initializer_list:66:1: error: unknown type name 'template'
+template<class _Elem> inline
+^
+C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\initializer_list:66:9: error: expected identifier or '('
+template<class _Elem> inline
+        ^
+In file included from ..\src\ArchiveExtractor.c:25:
+In file included from C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\iostream:4:
+In file included from C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\istream:4:
+In file included from C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\ostream:4:
+In file included from C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\ios:4:
+In file included from C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\xlocnum:8:
+In file included from C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\streambuf:4:
+In file included from C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\xiosbase:4:
+In file included from C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\xlocale:6:
+In file included from C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\stdexcept:4:
+In file included from C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\exception:4:
+In file included from C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\xstddef:11:
+C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\xtr1common:14:1: error: unknown type name 'template'
+template<class _Ty,
+^
+C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\xtr1common:14:9: error: expected identifier or '('
+template<class _Ty,
+        ^
+C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\xtr1common:34:9: error: unknown type name 'integral_constant'
+typedef integral_constant<bool, true> true_type;
+        ^
+C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\xtr1common:34:26: error: expected identifier or '('
+typedef integral_constant<bool, true> true_type;
+                         ^
+C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\xtr1common:35:9: error: unknown type name 'integral_constant'
+typedef integral_constant<bool, false> false_type;
+        ^
+C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\xtr1common:35:26: error: expected identifier or '('
+typedef integral_constant<bool, false> false_type;
+                         ^
+C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\xtr1common:38:1: error: unknown type name 'template'
+template<bool _Val>
+^
+C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\xtr1common:38:9: error: expected identifier or '('
+template<bool _Val>
+        ^
+C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\xtr1common:42:1: error: unknown type name 'template'
+template<bool _Val>
+^
+C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\xtr1common:42:9: error: expected identifier or '('
+template<bool _Val>
+        ^
+C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\xtr1common:49:1: error: unknown type name 'template'
+template<bool _Test,
+^
+C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\xtr1common:49:9: error: expected identifier or '('
+template<bool _Test,
+        ^
+C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\xtr1common:55:1: error: unknown type name 'template'
+template<class _Ty>
+^
+C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\xtr1common:55:9: error: expected identifier or '('
+template<class _Ty>
+        ^
+C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\xtr1common:62:1: error: unknown type name 'template'
+template<bool _Test,
+^
+C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\xtr1common:62:9: error: expected identifier or '('
+template<bool _Test,
+        ^
+C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\xtr1common:70:1: error: unknown type name 'template'
+template<class _Ty1,
+^
+C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\xtr1common:70:9: error: expected identifier or '('
+template<class _Ty1,
+        ^
+C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\xtr1common:78:1: error: unknown type name 'template'
+template<class _Ty1,
+^
+C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\xtr1common:78:9: error: expected identifier or '('
+template<class _Ty1,
+        ^
+C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\xtr1common:85:1: error: unknown type name 'template'
+template<class _Ty1>
+^
+C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\xtr1common:85:9: error: expected identifier or '('
+template<class _Ty1>
+        ^
+C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\xtr1common:92:1: error: unknown type name 'template'
+template<class _Ty>
+^
+C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\xtr1common:92:9: error: expected identifier or '('
+template<class _Ty>
+        ^
+C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\xtr1common:98:1: error: unknown type name 'template'
+template<class _Ty>
+^
+C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\xtr1common:98:9: error: expected identifier or '('
+template<class _Ty>
+        ^
+C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\xtr1common:104:1: error: unknown type name 'template'
+template<class _Ty>
+^
+C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\xtr1common:104:9: error: expected identifier or '('
+template<class _Ty>
+        ^
+C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\xtr1common:110:1: error: unknown type name 'template'
+template<class _Ty, size_t _Nx>
+^
+C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\xtr1common:110:9: error: expected identifier or '('
+template<class _Ty, size_t _Nx>
+        ^
+C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\xtr1common:117:1: error: unknown type name 'template'
+template<class _Ty>
+^
+C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\xtr1common:117:9: error: expected identifier or '('
+template<class _Ty>
+        ^
+C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\xtr1common:123:1: error: unknown type name 'template'
+template<class _Ty>
+^
+C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\xtr1common:123:9: error: expected identifier or '('
+template<class _Ty>
+        ^
+C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\xtr1common:129:1: error: unknown type name 'template'
+template<class _Ty>
+^
+C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\xtr1common:129:9: error: expected identifier or '('
+template<class _Ty>
+        ^
+C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\xtr1common:135:1: error: unknown type name 'template'
+template<class _Ty, size_t _Nx>
+^
+C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\xtr1common:135:9: error: expected identifier or '('
+template<class _Ty, size_t _Nx>
+        ^
+C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\xtr1common:142:1: error: unknown type name 'template'
+template<class _Ty>
+^
+C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\xtr1common:142:9: error: expected identifier or '('
+template<class _Ty>
+        ^
+C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\xtr1common:150:1: error: unknown type name 'template'
+template<class _Ty>
+^
+C:\Users\ndunbar\Downloads\Borland Cpp Compiler\BCC101\bin\..\include\dinkumware64\xtr1common:150:9: error: expected identifier or '('
+template<class _Ty>
+        ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+51 errors generated.
+
+c:\SourceCode\ArchiveExtractor\release>if exist ArchiveExtractor.pdb (del /f ArchiveExtractor.pdb  2>nul ) 
+
+c:\SourceCode\ArchiveExtractor\release>if exist ArchiveExtractor.tds (del /f ArchiveExtractor.tds  2>nul ) 
+
+c:\SourceCode\ArchiveExtractor\release>pause
+Press any key to continue . . . 

@@ -1,0 +1,1035 @@
+
+FILE: hotel_dbf
+
+DATA AREA
+=========
+
+At Offset: $00000014
+
+RECORD: 00000 - At Offset: $00000014
+-------------
+            ht.: B & B
+          name$: 
+      address1$: 
+      address2$: Barnsley
+         phone$: 
+           fax$: 
+        notes1$: Mrs Ryan & Mrs Hemsworth
+        notes2$: 
+        nores3$: 
+        notes4$: 
+        notes5$: 
+  Rec Separator:$00$00
+
+RECORD: 00001 - At Offset: $00000046
+-------------
+            ht.: Hotel
+          name$: The Crook Inn
+      address1$: Tweedsmuir, Peeblesshire, ML12 6QN
+      address2$: 
+         phone$: (089 97) 272
+           fax$: 
+        notes1$: Stayed 1992 for a cheap week-end. Pleasant.
+        notes2$: 
+        nores3$: 
+        notes4$: 
+        notes5$: 
+  Rec Separator:$00$00
+
+RECORD: 00002 - At Offset: $000000be
+-------------
+            ht.: B & B
+          name$: The Old Coach House
+      address1$: 255 Doncaster Road, Stairfoot, Barnesley, South Yorkshire,
+      address2$: S70 3RH
+         phone$: 0226 290 612
+           fax$: 
+        notes1$: Mrs Ryan & Mrs Hemsworth
+        notes2$: Stayed 1992 with Bob Smith & wife. £18.
+        nores3$: 
+        notes4$: 
+        notes5$: 
+  Rec Separator:$00$00
+
+RECORD: 00003 - At Offset: $0000016f
+-------------
+            ht.: b & b
+          name$: The Harlequin
+      address1$: 165 Westgate, Wakefield, West Yorkshire, WF2 9SA. 
+      address2$: 
+         phone$: 01924 372 500
+           fax$: 01924 370 026
+        notes1$: Stayed December 1995. OK, but tradesmanish.
+        notes2$: 
+        nores3$: 
+        notes4$: 
+        notes5$: 
+  Rec Separator:$00$00
+
+RECORD: 00004 - At Offset: $00000205
+-------------
+            ht.: hotel
+          name$: Arches Hotel
+      address1$: 280 Oystermouth Road, Swansea, SA1 3UL.
+      address2$: 
+         phone$: 01792 641 913
+           fax$: 01792 644 936
+        notes1$: Stayed there August 1995. Tends to be used by workmen. A little 
+        notes2$: tatty. B&B £10/night.
+        nores3$: 
+        notes4$: 
+        notes5$: 
+  Rec Separator:$00$00
+
+RECORD: 00005 - At Offset: $000002b9
+-------------
+            ht.: 
+          name$: Union Jack Club
+      address1$: Sandel Street
+      address2$: 
+         phone$: 0171 928 6401
+           fax$: 
+        notes1$: 
+        notes2$: 
+        nores3$: 
+        notes4$: 
+        notes5$: 
+  Rec Separator:$00$00
+
+RECORD: 00006 - At Offset: $000002ef
+-------------
+            ht.: B & B.
+          name$: Bolton wood House.
+      address1$: Bolton Low Houses, Wigton, CA7 8HN.
+      address2$: 
+         phone$: 01697 342 306
+           fax$: 
+        notes1$: 
+        notes2$: 
+        nores3$: 
+        notes4$: 
+        notes5$: 
+  Rec Separator:$00$00
+
+RECORD: 00007 - At Offset: $00000344
+-------------
+            ht.: B & B  
+          name$: Chatford House  (Mrs Daphne Farmer)
+      address1$: Bayston Hll, Nr Shrewsbury, Shropshire
+      address2$: 
+         phone$: 01743 718 301
+           fax$: 
+        notes1$: 12 £/person/night. 3 twin-bedded rooms. Not en-suite. H & C,
+        notes2$: also tea/coffee in rooms. By farm buildings, approach road can
+        nores3$: be muddy, can be noise & smell from adjacent farm. Genuine old
+        notes4$: world. Very friendly people. From Bayston Hill go south along
+        notes5$: A49, 3rd turn right to Stapleton, 1st right. Stayed Nov 93.
+  Rec Separator:$00$00
+
+RECORD: 00008 - At Offset: $000004de
+-------------
+            ht.: hotel
+          name$: Times Hotel
+      address1$: 384 Oystermouth Road, Swansea, SA1 3UL.
+      address2$: 
+         phone$: 01792 653 580
+           fax$: 01792 644 936
+        notes1$: Not stayed there. Under same ownership as the Arches Hotel.
+        notes2$: Could be a little tatty.
+        nores3$: 
+        notes4$: 
+        notes5$: 
+  Rec Separator:$00$00
+
+RECORD: 00009 - At Offset: $0000058f
+-------------
+            ht.: B & B
+          name$: Mr & Mrs Gough.
+      address1$: Ousedale House, Offham, Lewes, East Sussex.
+      address2$: 
+         phone$: 01273 478 680.
+           fax$: 
+        notes1$: Stayed there December 1995. Very pleasant. £23/night.
+        notes2$: 
+        nores3$: 
+        notes4$: 
+        notes5$: Mr & Mrs Gough are from Newport, Salop.
+  Rec Separator:$00$00
+
+RECORD: 00010 - At Offset: $00000645
+-------------
+            ht.: 
+          name$: 
+      address1$: B & B
+      address2$: Silverdale Licensed Guest House. (Cowdrey)
+         phone$: 21 Sutton Park Road, Seaford, East Sussex, BN25 1RH.
+           fax$: 
+        notes1$: 01323 491 849
+        notes2$: 01323 891 131
+        nores3$: Visited December 1995. Seemed OK.
+        notes4$: 
+        notes5$: 
+  Rec Separator:$00$00
+
+RECORD: 00011 - At Offset: $000006f0
+-------------
+            ht.: 
+          name$: 
+      address1$: bookings. 
+      address2$: The Executive Club International.
+         phone$: PO Box 998, South Croydon, Surrey, CR2 6YA.
+           fax$: 
+        notes1$: 0181 686 0486
+        notes2$: 0181 680 1438
+        nores3$: My reference RNU /E1392 4000E /U
+        notes4$: Hotel reservations T 0181 256 9005, F 0181 256 9006.
+        notes5$: Flight reservations T 0181 256 9004.
+  Rec Separator:$00$00
+
+RECORD: 00012 - At Offset: $000007e5
+-------------
+            ht.: 
+          name$: 
+      address1$: B & B
+      address2$: Mrs S A Greenaway.
+         phone$: Timikel House, Goosey Corner, Crudwell, Nr Malmesbury,
+           fax$: Wiltshire, SN16 9ET.
+        notes1$: 01666 577 327
+        notes2$: 
+        nores3$: Stayed there 4/99. £15. Good accommodation. Overcooked b'fast.
+        notes4$: 
+        notes5$: 
+  Rec Separator:$00$00
+
+RECORD: 00013 - At Offset: $0000089e
+-------------
+            ht.: 
+          name$: 
+      address1$: B & B
+      address2$: Mrs Susan Ball
+         phone$: Bremilham House, Bremilham Road, Malmesbury, Wiltshire, SN16 0QD
+           fax$: 
+        notes1$: 01666 822 680
+        notes2$: 
+        nores3$: 
+        notes4$: 
+        notes5$: 
+  Rec Separator:$00$00
+
+RECORD: 00014 - At Offset: $0000090b
+-------------
+            ht.: 
+          name$: 
+      address1$: hotel
+      address2$: Mariner Hotel
+         phone$: Kippford, by Dalbeattie, Dumfries & Galloway, DG5 4LN.
+           fax$: 
+        notes1$: 01556 620 206.
+        notes2$: 
+        nores3$: B&B 30 £/person Oct 01.
+        notes4$: 
+        notes5$: 
+  Rec Separator:$00$00
+
+RECORD: 00015 - At Offset: $00000985
+-------------
+            ht.: 
+          name$: 
+      address1$: hotel
+      address2$: Rosemount
+         phone$: Kippford, by Dalbeattie, Dumfries & Galloway, DG5 4LN.
+           fax$: 
+        notes1$: 01556 620 214.
+        notes2$: 
+        nores3$: B&B 25 £/person Oct 01.
+        notes4$: 
+        notes5$: 
+  Rec Separator:$00$00
+
+RECORD: 00016 - At Offset: $000009fb
+-------------
+            ht.: 
+          name$: 
+      address1$: hotel
+      address2$: Anchor Hotel
+         phone$: Kippford, by Dalbeattie, Dumfries & Galloway, DG5 4LN.
+           fax$: 
+        notes1$: 01556 620 205
+        notes2$: 01556 620 205.
+        nores3$: B&B 30 £/person Oct 01.
+        notes4$: 
+        notes5$: 
+  Rec Separator:$00$00
+
+RECORD: 00017 - At Offset: $00000a81
+-------------
+            ht.: 
+          name$: 
+      address1$: B & B
+      address2$: The Rondo Guest House
+         phone$: 62 Queen Street, Dumfries, DG1 2JP.
+           fax$: 
+        notes1$: 01387 265 501
+        notes2$: 
+        nores3$: Stayed 14/12/01. Single rooms, separate toilet & shower. OK.
+        notes4$: 16 £/night.
+        notes5$: 
+  Rec Separator:$00$00
+
+RECORD: 00018 - At Offset: $00000b1f
+-------------
+            ht.: 
+          name$: 
+      address1$: commercial hotel
+      address2$: The Grantham Hotel
+         phone$: 24 - 26 Radcliffe Road, West Bridgford, Nottingham, NG2 5FW.
+           fax$: 
+        notes1$: 0115 981 1373
+        notes2$: 0115 981 6567
+        nores3$: Stayed 2/5/02. Twin room en-suite £48, single en-suite £33.
+        notes4$: 
+        notes5$: 
+  Rec Separator:$00$00
+
+RECORD: 00019 - At Offset: $00000bdf
+-------------
+            ht.: 
+          name$: 
+      address1$: B & B.
+      address2$: Lina Mackay.
+         phone$: 7 Glebelands, Tongue, Sutherland.
+           fax$: 
+        notes1$: 01847 611 223
+        notes2$: 
+        nores3$: Recommended by Charlie Mackay, July 2003.
+        notes4$: 
+        notes5$: 
+  Rec Separator:$00$00
+
+RECORD: 00020 - At Offset: $00000c55
+-------------
+            ht.: 
+          name$: 
+      address1$: B & B.
+      address2$: Nether Johnstone House.
+         phone$: Nether Johnstone, Off Barochan Road, Johnstone, Renfrewshire,
+           fax$: PA5 8YP.
+        notes1$: 01505 322 210
+        notes2$: 01505 324 004
+        nores3$: Donald stayed 22-24/3/07.
+        notes4$: 
+        notes5$: 
+  Rec Separator:$00$00
+
+RECORD: 00021 - At Offset: $00000cf7
+-------------
+            ht.: 
+          name$: 
+      address1$: .     B & BStone Crop Guest House.Hempton Road, Deddington, Oxon. 01869 338 335'W http://www.stonecropguesthouse
+      address2$: co.uk/18-20 £/night in 2003.Not stayed there
+         phone$:      B & BMr & Mrs D M MacKenzie.;Dunveaden 
+           fax$: ouse, Bettyhill, Sutherland, (by Thurso), North Scotland, KW14 7SP.016
+        notes1$: 1 521 273 5Stayed on caravan site July 2003, & in B 
+        notes2$:  B 25/6/04.      suite.23 £/night.   
+        nores3$: 
+        notes4$: 
+        notes5$: B & B
+  Rec Separator:$10$4d
+
+RECORD: 00022 - At Offset: $00000e7b
+-------------
+            ht.: rgaret Taylor.;Broughton Grounds Farm, North Newington, nr. Banbury, Oxon.	OX15 6AW.01295 730 31
+          name$: .E broughtongrounds@hotmail.com4Stayed 23-25 Februar
+      address1$:  2004. Very good. Not en-suite.23 £/night.     B & BIain & Jessie McIntyre.8Pannell Farm, Kilbarchan Road, Bridge of W
+      address2$: ir, PA11 3RN. 01505 613 078 / 615 803.01505 612 480.   E jessie@pannellfarm.f9.co.uk    1Maureen Ste
+         phone$: l 01505 613 078.  Iona Young 615 803.  HotelPark House Guest House (hotel).)Haigh Road, Waterloo, L
+           fax$: verpool, L22 3XS. 0151 928 4343:0151 949 0947.   E bookings@parkhse.com   www.parkhse.com.:Stayed 21/3/0
+        notes1$: . 32£/p/n. Good. Run by Augustinian Sisters.      Hote
+        notes2$: , & B & B.Wheyrigg Hall Hotel.$Abbeytown, Wigton, Cumbria, CA7 0DH. 01697 361 242-01697 361 020   E wheyri
+        nores3$: g-hall@tiscali.co.uk Stayed 19/1/11. £35 single room.      B & B.Bolton wood House.,Bolton Low Houses
+        notes4$:  Wigton, Cumbria, CA7 8HN. 01697 342 306   
+        notes5$: 
+  Rec Separator:$00$00
+
+RECORD: 00023 - At Offset: $00001200
+-------------
+            ht.: 
+          name$: 
+      address1$: B & B.
+      address2$: Bolton Wood House (E & Jim Foster?) 
+         phone$: Bolton Low Houses, Wigton, Cumbria, CA7 8NH.
+           fax$: 
+        notes1$: 01697 342 306.
+        notes2$: 01697 342 306.
+        nores3$: Stayed there 7/2/11. Only one room. Ensuite bathroom, but shower
+        notes4$: in the bath & no curtain. Not well heated. Exceptional breakfast
+        notes5$: Sandwiches provided. All in for 30£/peron/night.
+  Rec Separator:$00$00
+
+FILE: rel_fam.dbf
+
+DATA AREA
+=========
+
+At Offset: $00000014
+Indexed Record Print
+
+RECORD: 00000 - At Offset: $00000014
+-------------
+         Family: $00$00$00$00$00$00$00$00
+         Father: $00$00$00$00$00$00$00$00
+         Mother: $00$00$00$00$00$00$00$00
+   DateMarried$: 
+     Dissolved$: 
+      Children$: 
+  Rec Separator:$00$00
+
+RECORD: 00001 - At Offset: $00000165
+-------------
+         Family: $40$80$00$00$00$00$00$00
+         Father: $40$80$00$00$00$00$00$00
+         Mother: $41$00$00$00$00$00$00$00
+   DateMarried$: 
+     Dissolved$: 
+      Children$: 3,4,5,6,7,
+  Rec Separator:$00$00
+
+RECORD: 00002 - At Offset: $00000058
+-------------
+         Family: $41$00$00$00$00$00$00$00
+         Father: $42$00$00$00$00$00$00$00
+         Mother: $42$10$00$00$00$00$00$00
+   DateMarried$: 
+     Dissolved$: 
+      Children$: 1,10,
+  Rec Separator:$00$00
+
+RECORD: 00003 - At Offset: $0000007a
+-------------
+         Family: $41$40$00$00$00$00$00$00
+         Father: $42$30$00$00$00$00$00$00
+         Mother: $42$40$00$00$00$00$00$00
+   DateMarried$: 
+     Dissolved$: 
+      Children$: 13,8,14,15,
+  Rec Separator:$00$00
+
+RECORD: 00004 - At Offset: $000000a2
+-------------
+         Family: $41$80$00$00$00$00$00$00
+         Father: $42$80$00$00$00$00$00$00
+         Mother: $42$88$00$00$00$00$00$00
+   DateMarried$: 
+     Dissolved$: 
+      Children$: 2,18,19,20,
+  Rec Separator:$00$00
+
+RECORD: 00005 - At Offset: $000000ca
+-------------
+         Family: $41$a0$00$00$00$00$00$00
+         Father: $42$20$00$00$00$00$00$00
+         Mother: $42$a8$00$00$00$00$00$00
+   DateMarried$: 
+     Dissolved$: 
+      Children$: 22,23,24,
+  Rec Separator:$00$00
+
+RECORD: 00006 - At Offset: $000000f0
+-------------
+         Family: $41$c0$00$00$00$00$00$00
+         Father: $42$c8$00$00$00$00$00$00
+         Mother: $42$d0$00$00$00$00$00$00
+   DateMarried$: 
+     Dissolved$: 
+      Children$: 17,27,28,29,30,
+  Rec Separator:$00$00
+
+FILE: rel_mar.dbf
+
+DATA AREA
+=========
+
+At Offset: $00000014
+Indexed Record Print
+
+RECORD: 00000 - At Offset: $00000014
+-------------
+          RefNo: $00$00$00$00$00$00$00$00
+         Family: $00$00$00$00$00$00$00$00
+  Rec Separator:$00$00
+
+RECORD: 00001 - At Offset: $00000026
+-------------
+          RefNo: $40$80$00$00$00$00$00$00
+         Family: $40$80$00$00$00$00$00$00
+  Rec Separator:$00$00
+
+RECORD: 00002 - At Offset: $00000038
+-------------
+          RefNo: $41$00$00$00$00$00$00$00
+         Family: $40$80$00$00$00$00$00$00
+  Rec Separator:$00$00
+
+RECORD: 00003 - At Offset: $0000004a
+-------------
+          RefNo: $42$00$00$00$00$00$00$00
+         Family: $41$00$00$00$00$00$00$00
+  Rec Separator:$00$00
+
+RECORD: 00004 - At Offset: $0000005c
+-------------
+          RefNo: $42$10$00$00$00$00$00$00
+         Family: $41$00$00$00$00$00$00$00
+  Rec Separator:$00$00
+
+RECORD: 00005 - At Offset: $000000b6
+-------------
+          RefNo: $42$30$00$00$00$00$00$00
+         Family: $41$40$00$00$00$00$00$00
+  Rec Separator:$00$00
+
+RECORD: 00006 - At Offset: $0000006e
+-------------
+          RefNo: $42$40$00$00$00$00$00$00
+         Family: $41$40$00$00$00$00$00$00
+  Rec Separator:$00$00
+
+RECORD: 00007 - At Offset: $00000080
+-------------
+          RefNo: $42$80$00$00$00$00$00$00
+         Family: $41$80$00$00$00$00$00$00
+  Rec Separator:$00$00
+
+RECORD: 00008 - At Offset: $00000092
+-------------
+          RefNo: $42$88$00$00$00$00$00$00
+         Family: $41$80$00$00$00$00$00$00
+  Rec Separator:$00$00
+
+RECORD: 00009 - At Offset: $000000a4
+-------------
+          RefNo: $42$20$00$00$00$00$00$00
+         Family: $41$a0$00$00$00$00$00$00
+  Rec Separator:$00$00
+
+RECORD: 00010 - At Offset: $000000c8
+-------------
+          RefNo: $42$a8$00$00$00$00$00$00
+         Family: $41$a0$00$00$00$00$00$00
+  Rec Separator:$00$00
+
+RECORD: 00011 - At Offset: $000000da
+-------------
+          RefNo: $42$c8$00$00$00$00$00$00
+         Family: $41$c0$00$00$00$00$00$00
+  Rec Separator:$00$00
+
+RECORD: 00012 - At Offset: $000000ec
+-------------
+          RefNo: $42$d0$00$00$00$00$00$00
+         Family: $41$c0$00$00$00$00$00$00
+  Rec Separator:$00$00
+
+FILE: rel_par.dbf
+
+DATA AREA
+=========
+
+At Offset: $00000014
+Indexed Record Print
+
+RECORD: 00000 - At Offset: $00000014
+-------------
+          RefNo: $00$00$00$00$00$00$00$00
+         Family: $00$00$00$00$00$00$00$00
+  Rec Separator:$00$00
+
+RECORD: 00001 - At Offset: $00000080
+-------------
+          RefNo: $41$40$00$00$00$00$00$00
+         Family: $40$80$00$00$00$00$00$00
+  Rec Separator:$00$00
+
+RECORD: 00002 - At Offset: $000000ec
+-------------
+          RefNo: $41$80$00$00$00$00$00$00
+         Family: $40$80$00$00$00$00$00$00
+  Rec Separator:$00$00
+
+RECORD: 00003 - At Offset: $00000026
+-------------
+          RefNo: $41$a0$00$00$00$00$00$00
+         Family: $40$80$00$00$00$00$00$00
+  Rec Separator:$00$00
+
+RECORD: 00004 - At Offset: $00000038
+-------------
+          RefNo: $41$c0$00$00$00$00$00$00
+         Family: $40$80$00$00$00$00$00$00
+  Rec Separator:$00$00
+
+RECORD: 00005 - At Offset: $0000004a
+-------------
+          RefNo: $41$e0$00$00$00$00$00$00
+         Family: $40$80$00$00$00$00$00$00
+  Rec Separator:$00$00
+
+RECORD: 00006 - At Offset: $0000005c
+-------------
+          RefNo: $40$80$00$00$00$00$00$00
+         Family: $41$00$00$00$00$00$00$00
+  Rec Separator:$00$00
+
+RECORD: 00007 - At Offset: $0000006e
+-------------
+          RefNo: $42$20$00$00$00$00$00$00
+         Family: $41$00$00$00$00$00$00$00
+  Rec Separator:$00$00
+
+RECORD: 00008 - At Offset: $000000b6
+-------------
+          RefNo: $42$50$00$00$00$00$00$00
+         Family: $41$40$00$00$00$00$00$00
+  Rec Separator:$00$00
+
+RECORD: 00009 - At Offset: $00000092
+-------------
+          RefNo: $42$00$00$00$00$00$00$00
+         Family: $41$40$00$00$00$00$00$00
+  Rec Separator:$00$00
+
+RECORD: 00010 - At Offset: $000000a4
+-------------
+          RefNo: $42$60$00$00$00$00$00$00
+         Family: $41$40$00$00$00$00$00$00
+  Rec Separator:$00$00
+
+RECORD: 00011 - At Offset: $000000c8
+-------------
+          RefNo: $42$70$00$00$00$00$00$00
+         Family: $41$40$00$00$00$00$00$00
+  Rec Separator:$00$00
+
+RECORD: 00012 - At Offset: $000000da
+-------------
+          RefNo: $41$00$00$00$00$00$00$00
+         Family: $41$80$00$00$00$00$00$00
+  Rec Separator:$00$00
+
+RECORD: 00013 - At Offset: $0000016a
+-------------
+          RefNo: $42$90$00$00$00$00$00$00
+         Family: $41$80$00$00$00$00$00$00
+  Rec Separator:$00$00
+
+RECORD: 00014 - At Offset: $000000fe
+-------------
+          RefNo: $42$98$00$00$00$00$00$00
+         Family: $41$80$00$00$00$00$00$00
+  Rec Separator:$00$00
+
+RECORD: 00015 - At Offset: $00000110
+-------------
+          RefNo: $42$a0$00$00$00$00$00$00
+         Family: $41$80$00$00$00$00$00$00
+  Rec Separator:$00$00
+
+RECORD: 00016 - At Offset: $00000122
+-------------
+          RefNo: $42$b0$00$00$00$00$00$00
+         Family: $41$a0$00$00$00$00$00$00
+  Rec Separator:$00$00
+
+RECORD: 00017 - At Offset: $00000134
+-------------
+          RefNo: $42$b8$00$00$00$00$00$00
+         Family: $41$a0$00$00$00$00$00$00
+  Rec Separator:$00$00
+
+RECORD: 00018 - At Offset: $00000146
+-------------
+          RefNo: $42$c0$00$00$00$00$00$00
+         Family: $41$a0$00$00$00$00$00$00
+  Rec Separator:$00$00
+
+RECORD: 00019 - At Offset: $00000158
+-------------
+          RefNo: $42$88$00$00$00$00$00$00
+         Family: $41$c0$00$00$00$00$00$00
+  Rec Separator:$00$00
+
+RECORD: 00020 - At Offset: $0000017c
+-------------
+          RefNo: $42$d8$00$00$00$00$00$00
+         Family: $41$c0$00$00$00$00$00$00
+  Rec Separator:$00$00
+
+RECORD: 00021 - At Offset: $0000018e
+-------------
+          RefNo: $42$e0$00$00$00$00$00$00
+         Family: $41$c0$00$00$00$00$00$00
+  Rec Separator:$00$00
+
+RECORD: 00022 - At Offset: $000001a0
+-------------
+          RefNo: $42$e8$00$00$00$00$00$00
+         Family: $41$c0$00$00$00$00$00$00
+  Rec Separator:$00$00
+
+RECORD: 00023 - At Offset: $000001b2
+-------------
+          RefNo: $42$f0$00$00$00$00$00$00
+         Family: $41$c0$00$00$00$00$00$00
+  Rec Separator:$00$00
+
+FILE: rel_peo.dbf
+
+DATA AREA
+=========
+
+At Offset: $00000014
+Indexed Record Print
+
+RECORD: 00000 - At Offset: $00000014
+-------------
+          RefNo: $00$00$00$00$00$00$00$00
+           Male: $00$00$00$00$00$00$00$00
+       Surname$: #NULL#
+    FirstNames$: 
+   DateOfBirth$: 
+   DateOfDeath$: 
+      Comments$: 
+  Rec Separator:$00$00
+
+RECORD: 00001 - At Offset: $0000070c
+-------------
+          RefNo: $42$a0$00$00$00$00$00$00
+           Male: $40$80$00$00$00$00$00$00
+       Surname$: Hozier
+    FirstNames$: 
+   DateOfBirth$: 
+   DateOfDeath$: 
+      Comments$: 
+  Rec Separator:$00$00
+
+RECORD: 00002 - At Offset: $00000085
+-------------
+          RefNo: $40$80$00$00$00$00$00$00
+           Male: $40$80$00$00$00$00$00$00
+       Surname$: Churchill
+    FirstNames$: Winston Spencer
+   DateOfBirth$: 1847
+   DateOfDeath$: 1965
+      Comments$: 
+  Rec Separator:$00$00
+
+RECORD: 00003 - At Offset: $000000d4
+-------------
+          RefNo: $41$00$00$00$00$00$00$00
+           Male: $00$00$00$00$00$00$00$00
+       Surname$: Hozier
+    FirstNames$: Clementine
+   DateOfBirth$: 1885
+   DateOfDeath$: 1977
+      Comments$: 
+  Rec Separator:$00$00
+
+RECORD: 00004 - At Offset: $00000101
+-------------
+          RefNo: $42$d0$00$00$00$00$00$00
+           Male: $00$00$00$00$00$00$00$00
+       Surname$: 
+    FirstNames$: 
+   DateOfBirth$: 
+   DateOfDeath$: 
+      Comments$: 
+  Rec Separator:$00$00
+
+RECORD: 00005 - At Offset: $00000139
+-------------
+          RefNo: $69$6c$6c$00$00$00$00$00
+           Male: $00$41$40$00$00$00$00$00
+       Surname$: 
+    FirstNames$: 
+   DateOfBirth$: 
+   DateOfDeath$: 
+      Comments$: 
+  Rec Separator:$00$00
+
+RECORD: 00006 - At Offset: $00000162
+-------------
+          RefNo: $00$00$09$43$68$75$72$63
+           Male: $68$69$6c$6c$05$44$69$61
+       Surname$: a19091963   AÄ      @Ä      	ChurchillRandolph Spencer19111968   A†              	ChurchillSarah1914   
+    FirstNames$: 
+   DateOfBirth$: ¿              	ChurchillMarigold19181921   A‡              	C
+   DateOfDeath$: urchillMary1922    B       @Ä      	ChurchillRandolph Spencer18491895   B              JeromeJen
+      Comments$: ie18541921   B       @Ä      	ChurchillJack Spencer18801947   B0      @Ä      7th Duke of MarlboroughJo
+  Rec Separator:$68$6e
+
+RECORD: 00007 - At Offset: $00000192
+-------------
+          RefNo: $04$31$38$32$32$04$31$38
+           Male: $38$33$00$00$00$42$40$00
+       Surname$: 
+    FirstNames$: 
+   DateOfBirth$: 
+   DateOfDeath$: 
+      Comments$: 
+  Rec Separator:$00$00
+
+RECORD: 00008 - At Offset: $000001ba
+-------------
+          RefNo: $00$00$00$00$00$00$04$56
+           Male: $61$6e$65$0c$4c$61$64$79
+       Surname$: Frances  'daughter of 3rd Marque
+    FirstNames$: s of Londonderry  Bê              HozierKitty18831900       BP      @Ä      8th Duke of MarlboroughGeorge184
+   DateOfBirth$: 1892   B£              	ChurchillCornelia1847192
+   DateOfDeath$:    Bp      @Ä      ISSUEOTHER  unknown to database  
+      Comments$: Ä      @Ä      HozierHenry Montague18381907   Bà              
+  Rec Separator:$00$07
+
+RECORD: 00009 - At Offset: $000001f2
+-------------
+          RefNo: $42$6c$61$6e$63$68$65$04
+           Male: $31$38$35$32$04$31$39$32
+       Surname$: #daughter of the 10th Earl of Airlie  Bò      @Ä     
+    FirstNames$: 
+   DateOfBirth$: Hozier
+   DateOfDeath$: Bill
+      Comments$: 1888
+  Rec Separator:$04$31
+
+RECORD: 00010 - At Offset: $0000021d
+-------------
+          RefNo: $39$32$31$00$00$00$42$a0
+           Male: $00$00$00$00$00$00$00$00
+       Surname$: 
+    FirstNames$: 
+   DateOfBirth$: 
+   DateOfDeath$: 
+      Comments$: 
+  Rec Separator:$00$06
+
+RECORD: 00011 - At Offset: $00000251
+-------------
+          RefNo: $48$6f$7a$69$65$72$06$4e
+           Male: $65$6c$6c$69$65$04$31$38
+       Surname$: 81955   B®              BertieLady Gwendoline188519
+    FirstNames$: 1'Goonie'  B∞      @Ä      	ChurchillJohnny Spence
+   DateOfBirth$: 1909    B∏      @Ä      	ChurchillPeregrine Spencer1913    B¿              	ChurchillClarissa1920    B»      
+   DateOfDeath$: Ä      10th Earl of AirlieDavid18261881   B–               
+      Comments$: enrietta Blanche18301921!daughter of the 2nd Baron Stanley  B      @Ä
+  Rec Separator:$00$00
+
+RECORD: 00012 - At Offset: $0000028b
+-------------
+          RefNo: $00$00$00$00$13$31$30$74
+           Male: $68$20$45$61$72$6c$20$6f
+       Surname$:  Airlie      Bÿ               
+Clementine18541932#daughter of the 10th Earl of Airlie  B‡      @Ä   
+    FirstNames$: 
+   DateOfBirth$: 
+   DateOfDeath$: 
+      Comments$: 11th Earl of Airlie
+  Rec Separator:$05$44
+
+RECORD: 00013 - At Offset: $00000307
+-------------
+          RefNo: $61$76$69$64$04$31$38$35
+           Male: $36$04$31$39$30$30$00$00
+       Surname$: 
+    FirstNames$: Ë               Maude18591933#daughter of the 10th Earl of Airl
+   DateOfBirth$: e  B               Griselda18651934#daughter of the 10th Earl of Airlie  @Ä      @Ä      	ChurchillW
+   DateOfDeath$: nston Spencer184719657Prime Minister of Great Britain (1940-1945) (1951-1955)                     
+      Comments$: 
+  Rec Separator:$14$00
+
+RECORD: 00014 - At Offset: $00000343
+-------------
+          RefNo: $1d$80$00$00$00$00$00$00
+           Male: $00$00$00$07$0c$00$6e$c0
+       Surname$:          Ö /¡          ‘ -¡@         8¡Ä        9 )¡†        b 0¡¿        í (¡‡        ∫ 8¬         Ú +¬         4¬   
+    FirstNames$: 
+   DateOfBirth$: 
+   DateOfDeath$: 
+      Comments$: 
+  Rec Separator:$00$00
+
+RECORD: 00015 - At Offset: $00000373
+-------------
+          RefNo: $02$51$00$3a$c2$30$00$00
+           Male: $00$00$00$00$00$00$02$8b
+       Surname$: 
+    FirstNames$: ¬@         <¬P        C 0¬£        s 4¬p        ß 3¬Ä        ⁄ I¬à      
+   DateOfBirth$: 
+   DateOfDeath$: 
+      Comments$: Ÿ 
+  Rec Separator:$2a$c2
+
+RECORD: 00016 - At Offset: $000003a7
+-------------
+          RefNo: $90$00$00$00$00$00$00$00
+           Male: $00$04$23$00$29$c2$98$00
+       Surname$: 
+    FirstNames$: 
+   DateOfBirth$: 
+   DateOfDeath$: 
+      Comments$: 
+  Rec Separator:$00$00
+
+RECORD: 00017 - At Offset: $000003da
+-------------
+          RefNo: $04$4c$00$2b$c2$a0$00$00
+           Male: $00$00$00$00$00$00$04$77
+       Surname$: 
+    FirstNames$: ¬®        ≥ 2¬∞        Â 5¬∏         ,¬¿        F 7¬»  
+   DateOfBirth$: 
+   DateOfDeath$: 
+      Comments$: 
+  Rec Separator:$00$00
+
+RECORD: 00018 - At Offset: $000002d9
+-------------
+          RefNo: $00$05$7d$00$51$c2$d0$00
+           Male: $00$00$00$00$00$00$00$05
+       Surname$:  L¬ÿ        D 7¬‡        { G¬Ë        ¬ J¬       new person? u             1 T   ¥       Œ *  Œ *0th Earl of Airlie    o            FamiRefNo           Surname$        FirstNames$     Male             DateOfBirth$
+    FirstNames$:    DateOfDeath$    Comme
+   DateOfBirth$: ts$    	    (   Z  Surname$   OK ***      PChopeQF.Children$PIn@Ä      ,Ñ mPIn.QF.Chi
+   DateOfDeath$: dren$1PSubjectA               _ -          ‰   h  RefNo           Family          
+      Comments$: 
+  Rec Separator:$01$02
+
+RECORD: 00019 - At Offset: $00000423
+-------------
+          RefNo: $00$19$00$00$00$3c$00$01
+           Male: $00$01$00$00$01$02$00$05
+       Surname$: 
+    FirstNames$: 
+   DateOfBirth$: 
+   DateOfDeath$:                Ï     Family        |  »  er              Ä          Ä ¿Ä         Ï ¡          & ¡@         8 ¡Ä         J ¡†         \ ¡¿         n ¡‡         ∂ ¬          í ¬          § ¬P         » ¬£  
+      Comments$: 
+  Rec Separator:$00$00
+
+RECORD: 00020 - At Offset: $0000044c
+-------------
+          RefNo: $00$00$00$00$da$00$12$c2
+           Male: $70$00$00$00$00$00$00$00
+       Surname$: 
+    FirstNames$: 
+   DateOfBirth$:  ¬ê         ¬ò        "  ˇ~     B0      A@         mPM.RefNoPF.Father mPFndPSubjectPF.FatherPSubjectPF.Motherz pQZ$=dmPExPSubjectdïPSubjectdPToSpePSubject     or∞≥¥µ∂∑∏≤ÖÜˇ         £ -          
+   DateOfDeath$: 
+      Comments$: 
+  Rec Separator:$00$00
+
+RECORD: 00021 - At Offset: $00000477
+-------------
+          RefNo: $00$00$00$00$00$00$00$00
+           Male: $00$00$52$65$66$4e$6f$20
+       Surname$:          Family           
+    FirstNames$:  
+   DateOfBirth$: 
+   DateOfDeath$: 
+      Comments$: 
+  Rec Separator:$3c$00
+
+RECORD: 00022 - At Offset: $000004b3
+-------------
+          RefNo: $01$00$01$00$00$00$00$00
+           Male: $00$00$00$00$00$00$14$00
+       Surname$:     
+    FirstNames$: t
+   DateOfBirth$: n
+   DateOfDeath$: 
+      Comments$:    í $   §              |   	                Ä          & ¿Ä         8 ¡          J ¬          \ ¬         n ¬0         Ä ¬@         í ¬Ä         § ¬à            tartin 
+  JDeaa    8lMar  ChurMa?     rPaD C ZDelP 
+  Rec Separator:$05$06
+
+RECORD: 00023 - At Offset: $000004e5
+-------------
+          RefNo: $43$68$75$72$50$61$72$20
+           Male: $20$20$20$77$20$00$34$00
+       Surname$: 
+    FirstNames$: >
+   DateOfBirth$:    d    .   	18,19,20,0, r,Q
+   DateOfDeath$: C$
+      Comments$:      mPM.RefNo
+  Rec Separator:$50$08
+
+RECORD: 00024 - At Offset: $0000051a
+-------------
+          RefNo: $46$2e$4d$6f$74$68$65$72
+           Male: $14$00$0d$6d$50$08$4d$2e
+       Surname$: amilyPF.Family  mP	Pa.FamilyPF.Family«     orπºΩæø¿
+    FirstNames$: ¡
+   DateOfBirth$: ¬
+   DateOfDeath$: √
+      Comments$: ƒ
+  Rec Separator:$01$bb
+
+RECORD: 00025 - At Offset: $00000546
+-------------
+          RefNo: $00$00$00$00$00$00$00$00
+           Male: $02$06$00$55$00$14$00$01
+       Surname$: 
+    FirstNames$:      
+   DateOfBirth$: 
+   DateOfDeath$: 
+      Comments$: 
+  Rec Separator:$00$00
+
+RECORD: 00026 - At Offset: $0000057d
+-------------
+          RefNo: $00$00$00$00$00$00$00$00
+           Male: $00$00$00$46$61$6d$69$6c
+       Surname$:           Father           Mother           DateMarried$    Dissolved$   
+   Children$    	    2  > 
+    FirstNames$: 
+   DateOfBirth$: 
+   DateOfDeath$: 
+      Comments$: amily                   ¢                    |              
+  Rec Separator:$1d$00
+
+RECORD: 00027 - At Offset: $000005f8
+-------------
+          RefNo: $00$00$00$00$14$00$00$00
+           Male: $7e$00$00$00$00$00$00$00
+       Surname$: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    FirstNames$: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   DateOfBirth$: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   DateOfDeath$: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      Comments$: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  Rec Separator:$7e$00
+
+RECORD: 00028 - At Offset: $00000644
+-------------
+          RefNo: $7e$00$00$00$00$00$00$00
+           Male: $7e$00$00$00$00$00$00$00
+       Surname$: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    FirstNames$: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   DateOfBirth$: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   DateOfDeath$: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      Comments$: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  Rec Separator:$7e$00
+
+RECORD: 00029 - At Offset: $0000067b
+-------------
+          RefNo: $7e$00$00$00$00$00$00$00
+           Male: $7e$00$00$00$00$00$00$00
+       Surname$: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    FirstNames$: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   DateOfBirth$: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   DateOfDeath$: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      Comments$: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  Rec Separator:$7e$00
+
+RECORD: 00030 - At Offset: $000006c2
+-------------
+          RefNo: $7e$00$00$00$00$00$00$00
+           Male: $7e$00$00$00$00$00$00$00
+       Surname$: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    FirstNames$: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   DateOfBirth$: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   DateOfDeath$: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      Comments$: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  Rec Separator:$7e$00
