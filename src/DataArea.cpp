@@ -39,7 +39,7 @@ bool doData() {
         // Are we done yet?
         size_t currentOffset = dbf->tellg();
         
-        if (currentOffset >= dataSize /* - 20 */)
+        if (currentOffset >= dataSize - 20)
             break;
         
         doOneRecord(currentOffset, recordNumber);
