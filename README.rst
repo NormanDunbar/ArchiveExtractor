@@ -7,6 +7,40 @@ I wrote this utility to assist me in tracking down just how corrupted,
 an archive database file in my possession, actually was. As it turned
 out, very!
 
+Installing
+==========
+
+The utility is currently Windows only! There's a surprise eh? And is written in C++, so you;ll need a decent compiler to generate the code. I used the free Borland C++ compiler, version 10.1 as provided absolutely free of charge by Embarcadero who took over Borland some years ago.
+
+Download the Compiler
+---------------------
+
+Go to https://www.embarcadero.com/free-tools/ccompiler/start-for-free in your favourite browser, alternatively, use Internet Explorer! Fill in your details to open an account, or login if you already have one, and download the compiler.
+
+Follow the instructions provided to install it, which is pretty much just unzipping it really. Add the ``bin`` folder to the path, and you are ready to go.
+
+Compiling
+---------
+
+Download the source code from GitHub. There's a download button on the screen. Download the zip file is what you want to do.
+
+Unzip it into your SourceCode folder, or somewhere suitable. It will be called ``ArchiveExtractor-master``. Open that folder in your File Explorer and locate the ``release`` folder and within that, the file ``build.cmd``.
+
+Double-click on ``build.cmd`` and assuming the compiler is on your path, the utility will be built.
+
+
+Running ArchiveExtractor
+========================
+
+Once compiled, you execute the utility as follows::
+
+	ArchiveExtractor dbf_file >data_file 2>structure_file
+
+The data part of the database, passed as the first parameter, will be extracted and written to the data_file supplied as the second. The third parameter specifies the name of a structure_file where details of the internal structure will be written.
+
+Where possible the utility makes checks to determine if the database is corrupted or not, if it finds anything dubious, the details will be written to the structure_file passed as a parameter.
+ 
+
 Data File Format
 ================
 
@@ -131,6 +165,8 @@ Within the data area we find all the fields of each record, grouped together. Th
 Numbers are stored in 8 bytes, I have no idea which actual format this is, yet, it could be IEEE, it could be some variant of the QL's internal format, or it could be something else. I'm still working on this part of the file.
 
 Strings are store as a single byte, limiting string data to a maximum of 255 bytes, followed by the bytes of the string itself. Empty fields are indicated by a single byte of zero. There are no apparent padding bytes to make sure that the strings are an even length.
+
+After all the string fields there is a two byte, usually both CHR$(0), record separator.
 
 
 Index Table
