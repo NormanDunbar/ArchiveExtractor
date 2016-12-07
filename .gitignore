@@ -1,5 +1,7 @@
 # My Stuff
 testFiles/*
+*/fileData.txt
+*/fileStructure.txt
 
 # Compiled Object files
 *.slo
