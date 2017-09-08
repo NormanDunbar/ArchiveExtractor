@@ -171,6 +171,7 @@ After all the string fields there is a two byte, usually both CHR$(0), record se
 
 Index Table
 -----------
+
 The third major section of a database file is the index table. This structure is preceded by an 8 byte standard table header - there's one in front of all the "table" areas, but not all are used. This one is.
 
 The address of the start of the header for this table is given in offset 10 of the file header, the long word found there indicates the start address of the index table.
@@ -215,11 +216,11 @@ Index Table Entries
 
 The index table entries start immediately after the header.
 
-Each entry has a 6 byte record locator. This comes in two parts, the first 4 bytes are the offset into the database file, and *not* from the start of the data area, the next two bytes give the length, in bytes, of the entire record.
+Each entry has a 6 byte record locator. This comes in two parts, the first 4 bytes are the offset into the *database file*, and not from the start of the *data area*, the next two bytes *appear* to give the length, in bytes, of the entire record - except, it appears that it doesn't quite work out that way in some cases!
 
 Following the record locator is 8 bytes of data for each sorted field in the record. For numeric fields the data here doesn't appear to be the same 8 bytes stored in the data area. I have yet to determine what goes here for string fields.
 
-When the ArchiveExtractor walks the data area of an indexed database file it uses the valid index entries to extract only the valid records. When the database isn't sorted, it has to check each record isn't sitting in a free space area, which indicates that the record isn't valid anymore. Probably an old deleted record.
+When the ArchiveExtractor walks the data area of an indexed database file it uses the valid index entries to extract only the valid records. When the database isn't sorted, it has to check each record isn't sitting in a free space area, which indicates that the record isn't valid any more and *might* be a previously deleted record.
 
 Free Space Table
 ----------------
@@ -242,7 +243,7 @@ Structure Table
 ---------------
 The structure table begins at offset 20 bytes on from the start of the gap.
 
-The structure table has a standard 8 byte header, but it doesn't appear to be used. The entries in the structure table after the unused header are as follows:
+The structure table has a standard 8 byte header, but it doesn't appear to be used. The entries in the structure table after the unused header are 20 bytes, laid out as follows:
 
 +----------+--------------------------------------------+
 | 13 bytes | Field name. Space padded.                  |
@@ -259,6 +260,12 @@ The structure table has a standard 8 byte header, but it doesn't appear to be us
 +----------+--------------------------------------------+
 
 It's interesting that the size of the field name comes at the end of the bytes making up the field name!
+
+As the standard header before this table is not used, then calculating the size of the table appears to be::
+
+    ((StructureTableSize - 8) / 20) -2
+    
+However, it also appears that the final two entries in the table are not used. Hence the final subtraction above.
 
 Reading an Archive File
 =======================

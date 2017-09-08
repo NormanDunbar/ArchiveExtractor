@@ -68,7 +68,7 @@ void doOneRecord(const uint32_t currentOffset, const int recordNumber) {
         // We account for up to 99999 records here.
         
         cout << endl << "RECORD: " ;
-        cout << setw(5) << setfill('0') << recordNumber;
+        displayDec(recordNumber, 5, '0', cout);
         cout << " - At Offset: ";
         displayHex(currentOffset, 8, cout);
         
@@ -88,7 +88,14 @@ void doOneRecord(const uint32_t currentOffset, const int recordNumber) {
         // Are there numeric fields?
         if (numNumericFields) {
             for (list<int>::iterator f = numericFields.begin(); f != numericFields.end(); f++) {
-                cout << setw(15) << fieldNames[*f] << ": ";
+                cout << setw(15) << fieldNames[*f] << ": " << setw(0);
+                
+                // If the 8 byte fp numbers were IEEE doubles, this would work!
+                //double fp;
+                //dbf->get(reinterpret_cast<char *>(&fp), 8+1);
+                //displayDec(fp, 8, cout);
+                //cout << endl;
+                
                 for (int x = 0; x < 8; x++) {
                     displayHex(getByte(), 2, cout);
                 }

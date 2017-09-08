@@ -49,26 +49,36 @@ void displayTableHeader(const tableHeader *th) {
 }
 
 void displayHex(const uint32_t value, const int wide, ostream &where) {
-    // Display a hex number in 'wide' digits.
+    // Display a hex number in 'wide' digits, with leading zeros.
     where << "$" << setbase(16) << setw(wide) << setfill('0') << value;
-    where << setbase(10) << setfill(' ');
+    where << setbase(10) << setfill(' ') << setw(0);
+}
+
+void displayDec(const uint32_t value, const int wide, const char filler, ostream &where) {
+    // Display a decimal number in 'wide' digits, with 
+    // leading spaces or zeros as chosen.
+    where << setbase(10) << setw(wide) << setfill(filler) << value << setw(0) << setfill(' ');
+    
 }
 
 void displayDecHex(const uint32_t value, const int wide) {
     // Output a value in decimal and the hex.
     // Decimal are space filled into 8 characters.
     // Hex are zero filled into 4 or 8 according to the 'wide' parameter.
-    cerr << setw(8) << value;
-    cerr << " ($" << setbase(16) << setw(wide) << setfill('0') << value;
-    cerr << setfill(' ') << setbase(10) << ")";
+    displayDec(value, 8, ' ', cerr);
+    cerr << " (";
+    displayHex(value, wide, cerr);
+    cerr << ")";
 }
 
-void displayField(const int fieldNumber, const fieldStructure *fs) {
+void displayField(const int fieldNumber, const fieldStructure *fs, const uint32_t offset) {
         // Print out the field details.
         
         // The following caters for 99 fields maximum.
         // change setw() to 3 to cope with 999. And add an extra '-' to the underline.
-        cerr << endl << "FIELD: " << setw(2) << setfill(' ') << fieldNumber;
+        cerr << endl << "FIELD: " << setw(2) << setbase(10) << setfill(' ') << fieldNumber;
+        cerr << " - At Offset: ";
+        displayHex(offset, 8, cerr);
         cerr << endl << "---------";
         cerr << endl << "NAME      :" << fs->fieldName;
         cerr << endl << "TYPE      :" << int(fs->fieldType) << ((fs->fieldType == 0) ? "=Numeric" : "=String") ;

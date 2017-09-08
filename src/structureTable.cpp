@@ -44,6 +44,7 @@ bool doStructure() {
     cerr << "The above table header is unused." << endl << endl;
         
     // How many fields?
+    // Why minus 2? Because the final two always appear unused.
     numFields = ((structureSize - 8) / 20) - 2;
     cerr << "NUM FIELDS: " << numFields << endl;
     
@@ -56,13 +57,14 @@ bool doStructure() {
     fieldStructure fs;   
     
     for (int x = 0; x < numFields; x++) {
-        dbf->get(fs.fieldName, 13+1);   // Gets 13 bytes.
-        fs.fieldName[13] = '\0';       // Just in case!
-        dbf->get(fs.nameSize);   
-        dbf->get(fs.fieldType);
-        dbf->get(fs.fieldSorted);
-        dbf->get(fs.sortOrder);
-        dbf->get(fs.fieldUnknown, 3+1);    // Gets 3 bytes.
+        long offset = dbf->tellg();     // Start of this field in database file
+        dbf->get(fs.fieldName, 13+1);   // Gets 13 bytes
+        fs.fieldName[13] = '\0';        // Just in case!
+        dbf->get(fs.nameSize);          // Namesize
+        dbf->get(fs.fieldType);         // Field Type
+        dbf->get(fs.fieldSorted);       // Are we sorting on this field?
+        dbf->get(fs.sortOrder);         // If so, which direction?
+        dbf->get(fs.fieldUnknown, 3+1); // Nobody knows!
         
         // Sanity checks.
         if (fs.nameSize > 13 || fs.nameSize < 0) {
@@ -97,7 +99,7 @@ bool doStructure() {
         fs.fieldName[fs.nameSize] = '\0';
         
         // Print out the field details.
-        displayField(x, &fs);
+        displayField(x, &fs, offset);
         
         // Update the lists and totals.
         fieldNames.push_back(string(fs.fieldName));

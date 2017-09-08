@@ -71,18 +71,21 @@ bool doIndexTable() {
     // Try to print out the index entries.
     indexOffsets.clear();
     for (int x = 0; x < th.elementsAllocated; x++ ) {
-        cerr << "Index Entry: " << setw(5) << setfill('0') << x;
-        cerr << setw(0) << setfill(' ') << ": ";
+        cerr << "Index Entry: ";
+        displayDec(x, 5, '0', cerr);
+        cerr << " (";
+        displayHex(dbf->tellg(), 8, cerr);
+        cerr << "): ";
         
         uint32_t offset = getLong();
         uint16_t size = getWord();
         
         // Dump the offset.
-        cerr << "OFFSET: ";
+        cerr << "RECORD START: ";
         displayHex(offset, 8, cerr);
-        cerr << " SIZE: ";
+        cerr << ", SIZE: ";
         displayHex(size, 4, cerr);
-        cerr << " DATA: ";
+        cerr << ", INDEX DATA: ";
         
         int limit = (th.elementSize - 6) / 8;
         
